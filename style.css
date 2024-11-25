@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url('./images/176061-ilustracion_de_paisaje_de_manzana-manzana-ilustracion-paisaje_natural-morado-1920x1080.jpg') no-repeat center center/ cover;
+
+}
+
+.contenido-centrado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius:  30px;
+}
+
+.contenedor-interno{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    visibility: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
